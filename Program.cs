@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome Practice Problem Day 2");
             Console.WriteLine("Please Choose one program from below list");
-            Console.WriteLine("\n1.NumbersEqualorNot\n2.Evenodd\n3.VotingAge\n4.ArithmeticOperations\n5.WeekDaywithWeekdayNumber\n6.Factorial\n7.Powerof2\n8.SumofSquare\n9.ReverseWord\n10.SomOfNaturalNumbers");
+            Console.WriteLine("\n1.NumbersEqualorNot\n2.Evenodd\n3.VotingAge\n4.ArithmeticOperations\n5.WeekDaywithWeekdayNumber\n6.Factorial\n7.Powerof2\n8.SumofSquare\n9.ReverseWord\n10.SomOfNaturalNumbers\n11.LargestNumber");
             int option=Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -49,6 +49,10 @@
                 case 10:
                     SumofnaturalNumbers Sum=new SumofnaturalNumbers();
                     Sum.sumofFirst5NaturalNumbers();
+                    break;
+                case 11:
+                    LargestNum large=new LargestNum();
+                    large.LargestNumber();
                     break;
 
             }
