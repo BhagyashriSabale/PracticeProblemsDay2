@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome Practice Problem Day 2");
             Console.WriteLine("Please Choose one program from below list");
-            Console.WriteLine("\n1.NumbersEqualorNot\n2.Evenodd\n3.VotingAge\n4.ArithmeticOperations\n5.WeekDaywithWeekdayNumber\n6.Factorial");
+            Console.WriteLine("\n1.NumbersEqualorNot\n2.Evenodd\n3.VotingAge\n4.ArithmeticOperations\n5.WeekDaywithWeekdayNumber\n6.Factorial\n7.Powerof2");
             int option=Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -33,6 +33,10 @@
                 case 6:
                     Factorial factorial=new Factorial();
                     factorial.Fact();
+                    break;
+                case 7:
+                    Powerof2 powerof2=new Powerof2();
+                    powerof2.Power2();
                     break;
             }
             
